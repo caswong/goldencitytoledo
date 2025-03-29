@@ -194,6 +194,35 @@ p {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #home-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #home-content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  #home-info-hours {
+    border-right: 0px;
+    border-bottom: 2px solid #e3b52b;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #home-info-loc {
+    padding-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .item {
+    text-align: left;
+    padding-right: 0px;
+  }
+
   #about-content {
     flex-direction: column;
     justify-content: center;
